@@ -1414,7 +1414,7 @@ requires-dist = [
     { name = "setuptools" },
     { name = "smbus2" },
     { name = "sounddevice" },
-    { name = "spidev", marker = "platform_system == 'Linux'", git = "https://github.com/commaai/py-spidev" },
+    { name = "spidev", marker = "platform_system == 'Linux'", git = "https://github.com/commaai/py-spidev?rev=0ea54e057f6ebb54741332a25976dca4e6bc0dd6#0ea54e057f6ebb54741332a25976dca4e6bc0dd6" },
     { name = "sympy" },
     { name = "tabulate", marker = "extra == 'dev'" },
     { name = "tqdm" },
@@ -5005,7 +5005,7 @@ wheels = [
 [[package]]
 name = "spidev"
 version = "3.6"
-source = { git = "https://github.com/commaai/py-spidev#0ea54e057f6ebb54741332a25976dca4e6bc0dd6" }
+source = { git = "https://github.com/commaai/py-spidev?rev=0ea54e057f6ebb54741332a25976dca4e6bc0dd6#0ea54e057f6ebb54741332a25976dca4e6bc0dd6" }
 
 [[package]]
 name = "sympy"
