@@ -38,7 +38,7 @@ dependencies = [
 
   # panda
   "libusb1",
-  "spidev; platform_system == 'Linux'",
+  "spidev @ git+https://github.com/commaai/py-spidev#0ea54e057f6ebb54741332a25976dca4e6bc0dd6; platform_system == 'Linux'",
 
   # modeld
   "onnx >= 1.14.0",
